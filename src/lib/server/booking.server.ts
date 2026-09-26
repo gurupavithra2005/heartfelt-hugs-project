@@ -138,9 +138,9 @@ export interface ValidationResponse {
   result: ValidationResult;
   message: string;
   checks: { label: string; pass: boolean | null }[];
-  ticketType?: string;
-  event?: string;
-  checkedInAt?: string;
+  ticketType?: string | undefined;
+  event?: string | undefined;
+  checkedInAt?: string | undefined;
 }
 
 export async function validateCore(
