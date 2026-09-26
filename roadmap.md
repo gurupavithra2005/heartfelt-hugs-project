@@ -1,9 +1,9 @@
-# Ticketing app remaining work
+# Ticketing app completion roadmap
 
-- [ ] Build public event discovery/detail and email sign-in/sign-up screens.
-- [ ] Connect booking reserve → checkout → payment simulation → ticket issuance.
-- [ ] Build owned tickets with QR codes and the staff validation/check-in page.
-- [ ] Build admin stats/event/ticket management, concurrency lab, and security architecture pages.
-- [ ] Add server-side authorization, security headers, and preserve ticket/RPC security boundaries.
-- [ ] Add domain tests and security/architecture documentation.
-- [ ] Verify accessible preview flows and check diagnostics.
+- [ ] Replace the blank preview with public event discovery and usable booking screens.
+- [ ] Wire authenticated reservation, checkout, payment simulation, and ticket issuance.
+- [ ] Add AI-powered recommendations from attendee dates, interests, and budget.
+- [ ] Add server-authorized staff validation and admin/staff CSV exports.
+- [ ] Add transactional booking notifications and upcoming-event reminders after sender-domain setup.
+- [ ] Add focused tests, security/architecture documentation, and evaluation checks.
+- [ ] Verify desktop/mobile preview and diagnostics; confirm GitHub sync availability.
